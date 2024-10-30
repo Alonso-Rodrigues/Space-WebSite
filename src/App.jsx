@@ -1,6 +1,7 @@
 import { React } from "react";
 import bgVideo from "./assets/videos/earth-bg.mp4";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 
 const App = () => {
@@ -11,9 +12,10 @@ const App = () => {
           <source src={bgVideo} type="video/mp4" />
         </video>
         <Navbar/>
+        <Hero/>
       </div>
     </div>
   )
-}
+};
 
 export default App;
