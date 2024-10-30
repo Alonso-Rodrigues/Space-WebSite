@@ -1,4 +1,5 @@
 import { React } from "react";
+import  moon from "../assets/img/moonSurface.png";
 
 
 
@@ -12,10 +13,13 @@ const Hero = () => {
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem eum reiciendis ut porro voluptas? Magnam, vitae cupiditate voluptates ut maiores a itaque neque error quae nostrum necessitatibus obcaecati id.
               </p>
-              <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200">Learn More</button>
+              <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-2 rounded-md duration-200">Learn More</button>
             </div>
           </div>
         </div>
+        <img src={moon} className="absolute right-0 bottom-0 w-full brightness-50 z-10" />
+        {/* Footer gradient section */}
+        <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-10% to-90% h-[20px] sm:h-[50px] md:[60px]"></div>
     </div>
   )
 };
