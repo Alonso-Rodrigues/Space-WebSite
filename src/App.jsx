@@ -1,9 +1,11 @@
 import { React } from "react";
 import bgVideo from "./assets/videos/earth-bg.mp4";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
+import Banner1 from "./components/Banners/Banner1";
+import Banner2 from "./components/Banners/Banner2";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
       </div>
       {/* Services Card Section */}
       <Services/>
+      <Banner1/>
+      <Banner2/>
+      <Footer/>
     </div>
   )
 };

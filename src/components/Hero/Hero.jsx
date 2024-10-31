@@ -1,7 +1,5 @@
 import { React } from "react";
-import  moon from "../assets/img/moonSurface.png";
-
-
+import  moon from "../../assets/img/moonSurface.png";
 
 const Hero = () => {
   return (
@@ -13,7 +11,7 @@ const Hero = () => {
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem eum reiciendis ut porro voluptas? Magnam, vitae cupiditate voluptates ut maiores a itaque neque error quae nostrum necessitatibus obcaecati id.
               </p>
-              <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-2 rounded-md duration-200">Learn More</button>
+              <button className="primary-button">Learn More</button>
             </div>
           </div>
         </div>

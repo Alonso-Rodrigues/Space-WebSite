@@ -1,7 +1,7 @@
 import { React } from "react";
 import { FaReact } from "react-icons/fa";
 import { FaShuttleSpace, FaSpaceAwesome} from "react-icons/fa6";
-import  wave from "../assets/img/wave.gif";
+import  wave from "../../assets/img/wave.gif";
 
 const ServiceData = [
   {
