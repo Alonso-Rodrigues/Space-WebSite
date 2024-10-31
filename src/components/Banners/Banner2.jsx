@@ -15,7 +15,7 @@ const Banner2= () => {
             <button className="primary-button">Learn More</button>
             </div>
              <div>
-            <img src={sateliteImg} alt="" />
+            <img src={sateliteImg}/>
           </div>
         </div>
       </div>

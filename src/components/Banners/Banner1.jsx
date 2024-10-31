@@ -7,7 +7,7 @@ const Banner1= () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
           <div>
-            <img src={sateliteImg} alt="" />
+            <img src={sateliteImg}/>
           </div>
           <div className="space-y-3 xl:36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800">
             <p className="text-sky-800 uppercase">Our mission</p>
