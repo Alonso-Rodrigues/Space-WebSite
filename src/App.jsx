@@ -1,4 +1,4 @@
-import { React } from "react";
+import React, { useEffect } from "react";
 import bgVideo from "./assets/videos/earth-bg.mp4";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -6,8 +6,17 @@ import Services from "./components/Services/Services";
 import Banner1 from "./components/Banners/Banner1";
 import Banner2 from "./components/Banners/Banner2";
 import Footer from "./components/Footer/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const App = () => {
+  useEffect(() =>{
+    Aos.init({
+      duration: 1200,
+      easing: "ease-in-out"
+    });
+  });
+
   return (
     <div>
       <div className="h-[700px] relative">
@@ -23,7 +32,7 @@ const App = () => {
       <Banner2/>
       <Footer/>
     </div>
-  )
+  );
 };
 
 export default App;

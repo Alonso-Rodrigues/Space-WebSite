@@ -6,14 +6,20 @@ const Banner1= () => {
     <div className="bg-black text-white pb-12 relative z-50">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-          <div>
-            <img src={sateliteImg}/>
+          <div data-aos="zoom-in" >
+            <img src={sateliteImg} className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover"/>
           </div>
           <div className="space-y-3 xl:36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800">
-            <p className="text-sky-800 uppercase">Our mission</p>
-            <h1 className="uppercase text-5xl">Rapidcast</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum maiores, neque quas hic qui earum illum quod! Voluptate error nulla et est magnam, necessitatibus facilis totam officiis a modi nam.</p>
-            <button className="primary-button">Learn More</button>
+            <p data-aos="fade-up" className="text-sky-800 uppercase">Our mission</p>
+            <h1 data-aos="fade-up" data-aos-delay="300" className="uppercase text-5xl">Rapidcast</h1>
+            <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum maiores, neque quas hic qui earum illum quod! Voluptate error nulla et est magnam, necessitatibus facilis totam officiis a modi nam.</p>
+            <button 
+            data-aos="fade-up" 
+            data-aos-delay="700"
+            className="primary-button"
+            >
+              Learn More
+            </button>
           </div>
         </div>
       </div>

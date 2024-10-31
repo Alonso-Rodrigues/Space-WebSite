@@ -5,13 +5,13 @@ import { MdCall, MdMessage } from "react-icons/md";
 
 const Footer= () => {
   return (
-    <div className="bg-gray-800 text-white px-5">
+    <div className="bg-gray-800 text-white px-5 relative z-50">
       <section className="maw-w-[1200px] mx-auto text-white">
         <div className="grid md:grid-cols-3 py-5">
           {/* First col */}
           <div className="py-8 px-4">
             <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Be Ready To Grow</h1>
-            <p>
+            <p className="">
               Get Exclusive
               <span className="font-bold">Update</span>
               straigt to your inbox
